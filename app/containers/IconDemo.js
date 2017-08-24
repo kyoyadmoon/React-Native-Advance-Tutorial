@@ -38,6 +38,7 @@ export default class Home extends Component {
       <View style={styles.container}>
         <View style={styles.row}>
           <TextInput onChangeText={(iconName) => this.setState({ iconName })}
+            autoCapitalize="none"
             placeholder="Enter icon name here..."
             style={styles.textInput} />
         </View>
